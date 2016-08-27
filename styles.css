@@ -4,7 +4,7 @@ html{
 }
 ul {
     list-style-type: none;
-     margin-top: 10px;
+    margin-top: 10px;
     margin-bottom: 2px;
     margin-right: 100px;
     margin-left: 350px;
@@ -57,7 +57,7 @@ header, footer{
     float: left;
 }
 header{
-   
+   margin-top: 0;
     padding: 1%;
 }
 
@@ -77,6 +77,9 @@ footer{
 #page-wrap:after{
     content: "";
     display: block;
+}
+h1{
+    color: #f36;
 }
 footer, #page-wrap:after{
     height: 1px;
