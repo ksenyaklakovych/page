@@ -41,15 +41,33 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+header{
+     text-align: center;
+}
 body{
     font-size: 1.5em;
     font-family: Georgia;
-    text-align: center;
+   
 }
-img{
-    max-width: 100%;
+.aboutme img {
+  float: left;
+  max-width: 100%;
     height: auto;
-    border-radius:10px;
+    border-radius:5px;
+}
+.aboutme h2 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+ 
+  margin:0;
+}
+.aboutme h6 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  text-align: right;
+  margin:0;
 }
 header, footer{
     width:98%;
@@ -66,9 +84,6 @@ nav{
     font-family: Georgia;
     margin-left: 15px;
 }
-.photos{
-    margin-bottom:-100px;
-}
 footer{
     margin-top: 0;
     padding: 1%;
@@ -84,9 +99,6 @@ footer, #page-wrap:after{
 #page-wrap{
     min-height: 94%;
     margin-bottom: -5px;
-}
-.left{
-    float:left;
 }
 #menuHref a{
     padding: 10px 15px;
