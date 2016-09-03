@@ -66,8 +66,8 @@ nav{
     font-family: Georgia;
     margin-left: 15px;
 }
-.photos{
-    margin-bottom:-100px;
+#photos{
+    margin-bottom:-50px;
 }
 footer{
     margin-top: 0;
