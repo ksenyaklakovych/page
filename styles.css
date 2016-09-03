@@ -42,18 +42,19 @@ hr {
     border-width: 1px;
 }
 body{
+    background-image: url("images/ny.jpg");
+    height: 730px;
+    min-width: 550px;
     font-size: 1.5em;
     font-family: Georgia;
     text-align: center;
 }
 img{
     max-width: 100%;
-    height: auto;
     border-radius:10px;
 }
 header, footer{
     width:98%;
-    background-color: #ffffff;
     float: left;
 }
 header{
