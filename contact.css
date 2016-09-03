@@ -47,6 +47,16 @@ body{
     font-family: Georgia;
     text-align: center;
 }
+.social{
+    padding: 5px;
+    background-color: darkgrey;
+    margin-left: 7px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
 img{
     max-width: 100%;
     height: auto;
@@ -88,6 +98,9 @@ footer, #page-wrap:after{
 }
 .left{
     float:left;
+}
+.right{
+    float:right;
 }
 #menuHref a{
     padding: 10px 15px;
