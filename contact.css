@@ -52,10 +52,11 @@ body{
 }
 .form{
     padding: 5px;
-    background-color: darkgrey;
+    width:600px;
+    height:300px; 
+   
     margin-left: 12%;
     border-radius: 5px;
-    color: floralwhite;
     float:left;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -63,7 +64,7 @@ body{
 }
 .social{
     padding: 5px;
-    background-color: darkgrey;
+     background-color: #FF7093;
     margin-left: 7px;
     border-radius: 5px;
     float: left;
