@@ -17,4 +17,4 @@ function sendForm(e) {
             $('#thanks').html('Thank you for contacting me!');
         }
     });
-}
+};
