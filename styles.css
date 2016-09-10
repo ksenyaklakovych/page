@@ -3,6 +3,9 @@ html{
     max-width: 1200px;
     margin:0 auto;
     width: 100%;
+    background-image: url("images/web.jpg");
+    background-size: cover;
+    background-image: no-repeat;
 }
 ul {
     max-width:650px;
@@ -70,7 +73,7 @@ nav{
     margin-left: 15px;
 }
 #photos{
-    background-image: url("images/back-1.jpg");
+    
     margin-bottom:-10px;
 }
 footer{

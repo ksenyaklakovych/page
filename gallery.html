@@ -1,58 +1,120 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="gallery.css" type="text/css">
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-        <title>Ksenya Klakovych</title>
-    </head>
-    <body>
-        <header>
-            <h1>
-                    <img src="images/camera.gif" alt="camera logo" style="width:85px;height:65px;">
-                    Ksenya Klakovych</h1>
-                <h2>PHOTOGRAPHY</h2>
-            
-        <nav id="menu"><hr></nav>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="gallery.css" type="text/css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Ksenya Klakovych</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="images/camera.gif" alt="camera logo" style="width:85px;height:65px;"> Ksenya Klakovych</h1>
+        <h2>PHOTOGRAPHY</h2>
+
+        <nav id="menu">
+            <hr>
+        </nav>
         <nav id="menuHref">
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a class="active" href="gallery.html">GALLERY</a></li>
+                <li><a class="activ" href="gallery.html">GALLERY</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
-        </header>
-        <section id="photos">
-            <img src="images/girl.jpg" alt="girl" style="width:600px;height:400px;">
-            <img src="images/nature.jpg" alt="mountains" style="width:600px;height:400px;"><br>
-            <img src="images/studio.jpg" alt="girl in the studio" style="width:290px;height:430px;">
-            <img src="images/pair.jpg" alt="girl and boy" style="width:600px;height:430px;">
-            <img src="images/cave.jpg" alt="girl in the cave" style="width:300px;height:430px;">
-            <img src="images/girl1.jpg" alt="girl" style="width:600px;height:400px;">
-            <img src="images/girl2.jpg" alt="girl" style="width:600px;height:400px;"><br>
-            <img src="images/mari.jpg" alt="girl and flame" style="width:290px;height:430px;">
-            <img src="images/sky2.jpg" alt="sunset" style="width:600px;height:430px;">
-            <img src="images/fall.jpg" alt="girl" style="width:300px;height:430px;">
-            <img src="images/sea3.jpg" alt="house" style="width:600px;height:400px;">
-            <img src="images/sea.jpg" alt="sea" style="width:600px;height:400px;"><br>
-            <img src="images/sea2.jpg" alt="mother and doughter" style="width:290px;height:430px;">
-            <img src="images/smile.jpg" alt="smiling girl" style="width:600px;height:430px;">
-            <img src="images/kid.jpg" alt="child" style="width:300px;height:430px;">
-            <img src="images/bike1.jpg" alt="girl and bike" style="width:600px;height:400px;">
-            <img src="images/bike.jpg" alt="bike" style="width:600px;height:400px;"><br>
-            <img src="images/flag.jpg" alt="grandpa" style="width:290px;height:430px;">
-            <img src="images/dara.jpg" alt="sister" style="width:600px;height:430px;">
-            <img src="images/girl3.jpg" alt="girl photo" style="width:300px;height:430px;">
-            <img src="images/sky1.jpg" alt="hair" style="width:600px;height:400px;">
-            <img src="images/sky3.jpg" alt="sky sunset" style="width:600px;height:400px;"><br>
-            <img src="images/girls.jpg" alt="girl in the mountains" style="width:290px;height:430px;">
-            <img src="images/ira.jpg" alt="my friend" style="width:600px;height:430px;">
-            <img src="images/cat.jpg" alt="cat" style="width:300px;height:430px;">
-        </section>    
-   `    <footer>
-            <hr>
-            <span class="left">© Ksenya Klakovych 2016</span>
-        </footer>
-    </body>
+    </header>
+    <!--<section id="photos">-->
+    <!--        <img src="images/girl.jpg" alt="girl" style="width:600px;height:400px;">-->
+    <!--        <img src="images/nature.jpg" alt="mountains" style="width:600px;height:400px;"><br>-->
+    <!--        <img src="images/studio.jpg" alt="girl in the studio" style="width:290px;height:430px;">-->
+    <!--        <img src="images/pair.jpg" alt="girl and boy" style="width:600px;height:430px;">-->
+    <!--        <img src="images/cave.jpg" alt="girl in the cave" style="width:300px;height:430px;">-->
+    <!--        <img src="images/girl1.jpg" alt="girl" style="width:600px;height:400px;">-->
+    <!--        <img src="images/girl2.jpg" alt="girl" style="width:600px;height:400px;"><br>-->
+    <!--        <img src="images/mari.jpg" alt="girl and flame" style="width:290px;height:430px;">-->
+    <!--        <img src="images/sky2.jpg" alt="sunset" style="width:600px;height:430px;">-->
+    <!--        <img src="images/fall.jpg" alt="girl" style="width:300px;height:430px;">-->
+    <!--        <img src="images/sea3.jpg" alt="house" style="width:600px;height:400px;">-->
+    <!--        <img src="images/sea.jpg" alt="sea" style="width:600px;height:400px;"><br>-->
+    <!--        <img src="images/sea2.jpg" alt="mother and doughter" style="width:290px;height:430px;">-->
+    <!--        <img src="images/smile.jpg" alt="smiling girl" style="width:600px;height:430px;">-->
+    <!--        <img src="images/kid.jpg" alt="child" style="width:300px;height:430px;">-->
+    <!--        <img src="images/bike1.jpg" alt="girl and bike" style="width:600px;height:400px;">-->
+    <!--        <img src="images/bike.jpg" alt="bike" style="width:600px;height:400px;"><br>-->
+    <!--        <img src="images/flag.jpg" alt="grandpa" style="width:290px;height:430px;">-->
+    <!--        <img src="images/dara.jpg" alt="sister" style="width:600px;height:430px;">-->
+    <!--        <img src="images/girl3.jpg" alt="girl photo" style="width:300px;height:430px;">-->
+    <!--        <img src="images/sky1.jpg" alt="hair" style="width:600px;height:400px;">-->
+    <!--        <img src="images/sky3.jpg" alt="sky sunset" style="width:600px;height:400px;"><br>-->
+    <!--        <img src="images/girls.jpg" alt="girl in the mountains" style="width:290px;height:430px;">-->
+    <!--        <img src="images/ira.jpg" alt="my friend" style="width:600px;height:430px;">-->
+    <!--        <img src="images/cat.jpg" alt="cat" style="width:300px;height:430px;">-->
+    <!--    </section>-->
+
+     <!--<button class="btn btn-danger btn-lg">Hello bootstrap!</button>-->
+    <div class="container-fluid">
+        <div class="row">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    
+                      <div class="item active"><img src="images/girl.jpg" alt="girl" style="width:600px;height:400px;"> </div>
+             <div class="item active"><img src="images/nature.jpg" alt="mountains" style="width:600px;height:400px;"> </div>
+             <div class="item active"><img src="images/studio.jpg" alt="girl in the studio" style="width:290px;height:430px;"> </div>
+             <div class="item active"><img src="images/pair.jpg" alt="girl and boy" style="width:600px;height:430px;"> </div>
+             <div class="item active"><img src="images/cave.jpg" alt="girl in the cave" style="width:300px;height:430px;"> </div>
+             <div class="item active"><img src="images/girl1.jpg" alt="girl" style="width:600px;height:400px;"> </div>
+             <div class="item active"><img src="images/girl2.jpg" alt="girl" style="width:600px;height:400px;"> </div>
+             <div class="item active"><img src="images/mari.jpg" alt="girl and flame" style="width:290px;height:430px;"> </div>
+             <div class="item active"><img src="images/sky2.jpg" alt="sunset" style="width:600px;height:430px;"> </div>
+             <div class="item active"><img src="images/fall.jpg" alt="girl" style="width:300px;height:430px;"> </div>
+             <div class="item active"><img src="images/sea3.jpg" alt="house" style="width:600px;height:400px;"> </div>
+             <div class="item active"><img src="images/sea.jpg" alt="sea" style="width:600px;height:400px;"> </div>
+             <div class="item active"><img src="images/sea2.jpg" alt="mother and doughter" style="width:290px;height:430px;"> </div>
+             <div class="item active"><img src="images/smile.jpg" alt="smiling girl" style="width:600px;height:430px;"> </div>
+             <div class="item active"><img src="images/kid.jpg" alt="child" style="width:300px;height:430px;"> </div>
+             <div class="item active"><img src="images/bike1.jpg" alt="girl and bike" style="width:600px;height:400px;"> </div>
+             <div class="item active"><img src="images/bike.jpg" alt="bike" style="width:600px;height:400px;"><br> </div>
+             <div class="item active"><img src="images/flag.jpg" alt="grandpa" style="width:290px;height:430px;"> </div>
+            <div class="item active"> <img src="images/dara.jpg" alt="sister" style="width:600px;height:430px;"> </div>
+            <div class="item active"> <img src="images/girl3.jpg" alt="girl photo" style="width:300px;height:430px;"> </div>
+            <div class="item active"> <img src="images/sky1.jpg" alt="hair" style="width:600px;height:400px;"> </div>
+            <div class="item active"> <img src="images/sky3.jpg" alt="sky sunset" style="width:600px;height:400px;"> </div>
+            <div class="item active"> <img src="images/girls.jpg" alt="girl in the mountains" style="width:290px;height:430px;"> </div>
+            <div class="item active"> <img src="images/ira.jpg" alt="my friend" style="width:600px;height:430px;"> </div>
+            <div class="item active"> <img src="images/cat.jpg" alt="cat" style="width:300px;height:430px;"> </div>
+                
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+    <footer>
+        <hr>
+        <span class="left">© Ksenya Klakovych 2016</span>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
 </html>

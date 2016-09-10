@@ -1,7 +1,7 @@
 @charset "utf-8";
 html{
-    /*max-width: 1200px;*/
-    /*margin:0 auto;*/
+    max-width: 1200px;
+    margin:0 auto;
     width: 100%;
 }
 ul {
@@ -31,8 +31,7 @@ li a {
 li a:hover:not(.active) {
     background-color: #f3c;
 }
-
-.active {
+.activ {
     background-color: #f36;
 }
 hr {
@@ -45,23 +44,21 @@ hr {
     border-width: 1px;
 }
 body{
-    font-size: 1.5em;
+    font-size: 3em;
     font-family: Georgia;
     text-align: center;
-}
-img{
-    max-width: 100%;
-    height: auto;
-    border-radius:10px;
 }
 header, footer{
     width:98%;
     background-color: #ffffff;
-    float: left;
 }
 header{
+     font-size: 1.5em;
+    font-family: Georgia;
+    text-align: center;
    margin-top: 0;
     padding: 1%;
+    
 }
 
 nav{
@@ -69,10 +66,11 @@ nav{
     font-family: Georgia;
     margin-left: 15px;
 }
-#photos{
-    margin-bottom:-50px;
-}
+
 footer{
+     font-size: 1.5em;
+    font-family: Georgia;
+    text-align: center;
     margin-top: 0;
     padding: 1%;
     padding-bottom: 2%;
