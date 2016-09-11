@@ -4,8 +4,8 @@ html{
     margin:0 auto;
     width: 100%;
 }
-ul {
-     max-width:650px;
+ul.topnav {
+    max-width:650px;
     list-style-type: none;
     margin-top: 10px;
     margin-bottom: 2px;
@@ -15,26 +15,75 @@ ul {
     overflow: hidden;
     background-color: transparent;
 }
+/*ul.topnav {*/
+/*  list-style-type: none;*/
+/*text-align: center;*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  background-color: transparent;*/
+/*}*/
 
-li {
-    float: left;
+ul.topnav li {float: left;}
+/*li {*/
+/*    float: left;*/
+/*}*/
+
+/*ul.topnav li a {*/
+/*    display: block;*/
+/*    color: black;*/
+/*    text-align: center;*/
+/*    padding: 14px 40px;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*li a:hover:not(.active) {*/
+/*    background-color: #f3c;*/
+/*}*/
+
+/*.active {*/
+/*    background-color: #f36;*/
+/*}*/
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
 }
 
-li a {
+ul.topnav li a:hover {background-color:  #f36;}
+a.active {background-color:  #f36;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
     display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 40px;
-    text-decoration: none;
+    text-align: left;
+  }
 }
 
-li a:hover:not(.active) {
-    background-color: #f3c;
-}
-
-.active {
-    background-color: #f36;
-}
 hr {
     display: block;
     margin-top: 1em;
@@ -54,14 +103,17 @@ body{
 }
 #aboutme h2{
     text-align: center;
+    margin-right:100px;
 }
 #aboutme h6{
     text-align: center;
+    margin-right:100px;
 }
 #aboutme img{
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 40px;
+    margin-left:150px;
     float:left;
 }
 /*#aboutme img {*/
@@ -114,11 +166,11 @@ footer, #page-wrap:after{
     min-height: 94%;
     margin-bottom: -5px;
 }
-#menuHref a{
-    padding: 10px 15px;
-    margin-right: 5px;
-    color: #000000;
-}
-#menuHref a:hover{
-    background-color: #ccc4c4;
-}
+/*#menuHref a{*/
+/*    padding: 10px 15px;*/
+/*    margin-right: 5px;*/
+/*    color: #000000;*/
+/*}*/
+/*#menuHref a:hover{*/
+/*    background-color: #ccc4c4;*/
+/*}*/
