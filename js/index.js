@@ -15,6 +15,7 @@ function sendForm(e) {
         dataType: "json",
         success: function(){
             $('#thanks').html('Thank you for contacting me!');
+            $('.form-horizontal')[0].reset();
         }
     });
 }
