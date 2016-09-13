@@ -96,6 +96,7 @@ hr {
 body{
     font-size: 1.5em;
     font-family: Georgia;
+    
 }
 .social{
     padding: 5px;
@@ -107,12 +108,19 @@ body{
     text-align: center;
     
 }
+h1{
+    font-size: 3.5em;
+}
 img{
     max-width: 100%;
     height: auto;
     border-radius:10px;
 }
-
+.thanks{
+    text-align: center;
+    font-size:3em;
+    color:#EC2A15;
+}
 header, footer{
     width:98%;
     background-color: #ffffff;
