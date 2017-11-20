@@ -1,51 +1,20 @@
 @charset "utf-8";
 html{
+    
     max-width: 1200px;
     margin:0 auto;
+
     width: 100%;
-    background-image: url("images/web.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 ul.topnav {
     max-width:650px;
     list-style-type: none;
-    margin-top: 10px;
-    margin-bottom: 2px;
-    margin-right: 100px;
-    margin-left: 350px;
+    margin:10px 100px 2px 350px;
     padding: 0;
     overflow: hidden;
     background-color: transparent;
 }
-/*ul.topnav {*/
-/*  list-style-type: none;*/
-/*text-align: center;*/
-/*  margin: 0;*/
-/*  padding: 0;*/
-/*  background-color: transparent;*/
-/*}*/
-
 ul.topnav li {float: left;}
-/*li {*/
-/*    float: left;*/
-/*}*/
-
-/*ul.topnav li a {*/
-/*    display: block;*/
-/*    color: black;*/
-/*    text-align: center;*/
-/*    padding: 14px 40px;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*li a:hover:not(.active) {*/
-/*    background-color: #f3c;*/
-/*}*/
-
-/*.active {*/
-/*    background-color: #f36;*/
-/*}*/
 ul.topnav li a {
   display: block;
   color: black;
@@ -57,7 +26,7 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {background-color:  #f36;}
-a.active {background-color:  #f36;}
+.active {background-color:  #f36;}
 
 ul.topnav li.icon {display: none;}
 
@@ -87,53 +56,35 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-
-/*li {*/
-/*    float: left;*/
-/*}*/
-
-/*li a {*/
-/*    display: block;*/
-/*    color: black;*/
-/*    text-align: center;*/
-/*    padding: 14px 40px;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*li a:hover:not(.active) {*/
-/*    background-color: #f3c;*/
-/*}*/
-
-/*.active {*/
-/*    background-color: #f36;*/
-/*}*/
 hr {
     display: block;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    margin-left: 5em;
-    margin-right: 6em;
+    margin: 1em 6em 0.5em 5em;
     border-style: inset;
     border-width: 1px;
 }
 body{
-    height: 730px;
-    min-width: 550px;
+    
+    height: 600px;
+    min-width: 320px;
     font-size: 1.5em;
     font-family: Georgia;
     text-align: center;
 }
-img{
-    max-width: 100%;
-    border-radius:10px;
-}
+
 header, footer{
+    
     width:98%;
     float: left;
 }
 header{
    margin-top: 0;
     padding: 1%;
+}
+h3,p{
+    
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: lighter;
+    color:#808080;
 }
 
 nav{
@@ -142,11 +93,14 @@ nav{
     margin-left: 15px;
 }
 #photos{
-    
-    margin-bottom:-10px;
+    margin-top: 70px;
+    margin-right:20px;
+
+    margin-left:20px;
 }
+
 footer{
-    margin-top: 0;
+    
     padding: 1%;
     padding-bottom: 1%;
 }
@@ -164,11 +118,3 @@ footer, #page-wrap:after{
 .left{
     float:left;
 }
-/*#menuHref a{*/
-/*    padding: 10px 15px;*/
-/*    margin-right: 5px;*/
-/*    color: #000000;*/
-/*}*/
-/*#menuHref a:hover{*/
-/*    background-color: #ccc4c4;*/
-/*}*/
