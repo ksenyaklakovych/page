@@ -69,6 +69,7 @@ body{
     font-size: 1.5em;
     font-family: Georgia;
     text-align: center;
+     
 }
 
 header, footer{
@@ -95,8 +96,8 @@ nav{
 #photos{
     margin-top: 70px;
     margin-right:20px;
-
     margin-left:20px;
+  
 }
 
 footer{
