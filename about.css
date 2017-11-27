@@ -7,42 +7,13 @@ html{
 ul.topnav {
     max-width:650px;
     list-style-type: none;
-    margin-top: 10px;
-    margin-bottom: 2px;
-    margin-right: 100px;
-    margin-left: 350px;
+    margin: 10px 100px 2px 350px;
     padding: 0;
     overflow: hidden;
     background-color: transparent;
 }
-/*ul.topnav {*/
-/*  list-style-type: none;*/
-/*text-align: center;*/
-/*  margin: 0;*/
-/*  padding: 0;*/
-/*  background-color: transparent;*/
-/*}*/
 
 ul.topnav li {float: left;}
-/*li {*/
-/*    float: left;*/
-/*}*/
-
-/*ul.topnav li a {*/
-/*    display: block;*/
-/*    color: black;*/
-/*    text-align: center;*/
-/*    padding: 14px 40px;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*li a:hover:not(.active) {*/
-/*    background-color: #f3c;*/
-/*}*/
-
-/*.active {*/
-/*    background-color: #f36;*/
-/*}*/
 ul.topnav li a {
   display: block;
   color: black;
@@ -54,42 +25,13 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {background-color:  #f36;}
-a.active {background-color:  #f36;}
+.active {background-color:  #f36;}
 
-ul.topnav li.icon {display: none;}
-
-@media screen and (max-width:680px) {
-  ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.icon {
-    float: right;
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width:680px) {
-  ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
-}
+ul.topnav .icon {display: none;}
 
 hr {
     display: block;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    margin-left: 5em;
-    margin-right: 6em;
+    margin: 1em 6em 0.5em 5em;
     border-style: inset;
     border-width: 1px;
 }
@@ -99,14 +41,13 @@ header{
 }
 body{
     font-size: 1.5em;
-    font-family: Georgia;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: lighter;
 }
-#aboutme h2{
-    text-align: center;
-    margin-right:100px;
-}
-#aboutme h6{
-    text-align: center;
+h2,h6{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: lighter;
+    text-align: right;
     margin-right:100px;
 }
 #aboutme img{
@@ -116,38 +57,13 @@ body{
     margin-left:150px;
     float:left;
 }
-/*#aboutme img {*/
-/*  float: left;*/
-/*  max-width: 100%;*/
-/*    height: auto;*/
-/*    border-radius:50px;*/
-/*}*/
-/*#aboutme h2 {*/
-/*  position: relative;*/
-/*  top: 18px;*/
-/*  left: 30px;*/
-/*  margin:0;*/
-/*}*/
-/*#aboutme h6 {*/
-/*  position: relative;*/
-/*  top: 18px;*/
-/*  left: 50px;*/
-/*  right:90px;*/
-/*  margin:10px;*/
-/*}*/
 header, footer{
-    width:98%;
-    background-color: #ffffff;
     float: left;
 }
-header{
-   margin-top: 0;
-    padding: 1%;
-}
-
 nav{
     font-size: 1em;
-    font-family: Georgia;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: lighter;
     margin-left: 15px;
 }
 footer{
@@ -155,7 +71,7 @@ footer{
     padding: 1%;
     padding-bottom: 2%;
 }
-#page-wrap:after{
+/*#page-wrap:after{
     content: "";
     display: block;
 }
@@ -166,11 +82,4 @@ footer, #page-wrap:after{
     min-height: 94%;
     margin-bottom: -5px;
 }
-/*#menuHref a{*/
-/*    padding: 10px 15px;*/
-/*    margin-right: 5px;*/
-/*    color: #000000;*/
-/*}*/
-/*#menuHref a:hover{*/
-/*    background-color: #ccc4c4;*/
-/*}*/
+works without it*/ 

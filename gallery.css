@@ -7,10 +7,7 @@ html{
 ul {
     max-width:650px;
     list-style-type: none;
-    margin-top: 10px;
-    margin-bottom: 2px;
-    margin-right: 100px;
-    margin-left: 350px;
+    margin: 10px 100px 2px 350px;       
     padding: 0;
     overflow: hidden;
     background-color: transparent;
@@ -44,10 +41,7 @@ li a:hover:not(.activ) {
 }
 hr {
     display: block;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    margin-left: 5em;
-    margin-right: 6em;
+    margin: 1em 6em 0.5em 5em;
     border-style: inset;
     border-width: 1px;
 }
