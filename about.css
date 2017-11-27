@@ -27,7 +27,33 @@ ul.topnav li a {
 ul.topnav li a:hover {background-color:  #f36;}
 .active {background-color:  #f36;}
 
-ul.topnav .icon {display: none;}
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
 
 hr {
     display: block;
@@ -41,12 +67,9 @@ header{
 }
 body{
     font-size: 1.5em;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    font-weight: lighter;
+    font-family: Georgia;
 }
-h2,h6{
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    font-weight: lighter;
+#aboutme h2,h6{
     text-align: right;
     margin-right:100px;
 }
@@ -58,12 +81,18 @@ h2,h6{
     float:left;
 }
 header, footer{
+    width:98%;
+    background-color: #ffffff;
     float: left;
 }
+header{
+   margin-top: 0;
+    padding: 1%;
+}
+
 nav{
     font-size: 1em;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    font-weight: lighter;
+    font-family: Georgia;
     margin-left: 15px;
 }
 footer{
@@ -71,7 +100,7 @@ footer{
     padding: 1%;
     padding-bottom: 2%;
 }
-/*#page-wrap:after{
+#page-wrap:after{
     content: "";
     display: block;
 }
@@ -82,4 +111,3 @@ footer, #page-wrap:after{
     min-height: 94%;
     margin-bottom: -5px;
 }
-works without it*/ 
