@@ -1,15 +1,13 @@
 @charset "utf-8";
 html{
-    
     max-width: 1200px;
     margin:0 auto;
-
     width: 100%;
 }
 ul.topnav {
     max-width:650px;
     list-style-type: none;
-    margin:10px 100px 2px 350px;
+    margin: 10px 100px 2px 350px;
     padding: 0;
     overflow: hidden;
     background-color: transparent;
