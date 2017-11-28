@@ -63,12 +63,14 @@ hr {
 body{
     height: 600px;
     min-width: 320px;
+    text-align: center;
 }
 
 #text h2,h6{
     text-align: center;
     margin-left:100px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 3em;
 }
 #photo img{
     padding-left: 10px;
