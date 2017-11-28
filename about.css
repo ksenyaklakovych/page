@@ -58,7 +58,7 @@ hr {
     display: block;
     margin: 1em 6em 0.5em 5em;
     border-style: inset;
-    border-width: 1px;
+    border-width: 10px;
 }
 body{
     height: 600px;
