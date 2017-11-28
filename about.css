@@ -58,14 +58,16 @@ hr {
     display: block;
     margin: 1em 6em 0.5em 5em;
     border-style: inset;
-    border-width: 10px;
+    border-width: 1px;
 }
 body{
     height: 600px;
     min-width: 320px;
     text-align: center;
 }
-
+#text{
+    float:right;
+}
 #text h2,h6{
     text-align: center;
     margin-left:100px;
