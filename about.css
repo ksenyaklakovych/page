@@ -74,12 +74,12 @@ body{
 #photo{
     float:left;
 }
-#bigphoto img{
-    /*padding-left: 10px;
+/*#bigphoto img{
+    padding-left: 10px;
     padding-right: 10px;
-    padding-top: 40px;*/
+    padding-top: 40px;
     float:right;
-}
+}*/
 header, footer{
     width:98%;
     float: left;
