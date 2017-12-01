@@ -70,6 +70,7 @@ body{
 #text{
     text-align:center;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size:2em;
 }
 #photo{
     float:left;
