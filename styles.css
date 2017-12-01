@@ -65,7 +65,7 @@ body{
     height: 600px;
     min-width: 320px;
     font-size: 1.5em;
-    font-family: Georgia;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     text-align: center;
      
 }
@@ -97,9 +97,7 @@ nav{
     margin-left:20px;
   
 }
-
 footer{
-    
     padding: 1%;
     padding-bottom: 1%;
 }
