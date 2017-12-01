@@ -118,7 +118,7 @@ footer, #page-wrap:after{
     float:left;
 }
 a:link {
-    color: green;
+    color: #f36;
     background-color: transparent;
     text-decoration: none;
 }
