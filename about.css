@@ -59,11 +59,15 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+mark{
+    background-color:  #f36;
+}
 body{
     height: 600px;
     min-width: 320px;
     text-align: center;
     background-image: url(images/bac.png);
+    background-repeat: no-repeat;
 }
 
 #text{

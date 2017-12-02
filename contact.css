@@ -63,6 +63,8 @@ hr {
 body{
     font-size: 1.5em;
     font-family: Georgia;
+    background-image: url(images/bac.png);
+    background-repeat: no-repeat;
 }
 .social{
     padding: 5px;

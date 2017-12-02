@@ -67,6 +67,8 @@ body{
     font-size: 1.5em;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     text-align: center;
+    background-image: url(images/bac.png);
+    background-repeat: no-repeat;
      
 }
 
