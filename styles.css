@@ -24,7 +24,7 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {background-color:  #f36;}
-.active {background-color:  #f36;}
+.active {background-color:  #f36;text-decoration: none;}
 
 ul.topnav li.icon {display: none;}
 
@@ -118,7 +118,7 @@ footer, #page-wrap:after{
 }
 /*
 a:visited {
-text-decoration: none;
+
    color:   #f36;
 }
 a:hover {
