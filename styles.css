@@ -69,7 +69,6 @@ body{
     text-align: center;
     background-image: url(images/bac.png);
     background-repeat: no-repeat;
-     
 }
 
 header, footer{
@@ -127,11 +126,6 @@ a:visited {
    color:   #f36;
 }
 a:hover {
-    color:   #f36;
-    background-color: transparent;
-    text-decoration: underline;
-}
-a:active {
     color:   #f36;
     background-color: transparent;
     text-decoration: underline;

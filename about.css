@@ -59,9 +59,6 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
-mark{
-    background-color:  #f36;
-}
 body{
     height: 600px;
     min-width: 320px;
@@ -78,12 +75,6 @@ body{
 #photo{
     float:left;
 }
-/*#bigphoto img{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 40px;
-    float:right;
-}*/
 header, footer{
     width:98%;
     float: left;
