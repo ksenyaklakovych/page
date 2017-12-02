@@ -116,7 +116,7 @@ footer, #page-wrap:after{
 .left{
     float:left;
 }
-
+/*
 a:visited {
 text-decoration: none;
    color:   #f36;
@@ -124,4 +124,4 @@ text-decoration: none;
 a:hover {
     color:   #f36;
     text-decoration: underline;
-}
+}*/
