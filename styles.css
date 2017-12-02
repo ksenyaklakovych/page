@@ -116,17 +116,12 @@ footer, #page-wrap:after{
 .left{
     float:left;
 }
-a:link {
-    color: #f36;
-    
-    text-decoration: none;
-}
+
 a:visited {
-    text-decoration: none;
+text-decoration: none;
    color:   #f36;
 }
 a:hover {
     color:   #f36;
-   
     text-decoration: underline;
 }
