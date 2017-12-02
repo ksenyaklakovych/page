@@ -118,7 +118,7 @@ footer, #page-wrap:after{
 }
 a:link {
     color: #f36;
-    background-color: transparent;
+    
     text-decoration: none;
 }
 a:visited {
@@ -127,6 +127,6 @@ a:visited {
 }
 a:hover {
     color:   #f36;
-    background-color: transparent;
+   
     text-decoration: underline;
 }

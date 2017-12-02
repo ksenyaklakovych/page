@@ -1,3 +1,4 @@
+/*global $*/
 $(function() {
     $('#btn-send').click(sendForm);
 });
