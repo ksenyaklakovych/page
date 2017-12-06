@@ -12,33 +12,38 @@ ul {
     overflow: hidden;
     background-color: transparent;
 }
-
-li {
-    float: left;
+ul.topnav {
+    max-width:650px;
+    list-style-type: none;
+    margin: 10px 100px 2px 350px;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
 }
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 40px;
-    text-decoration: none;
-}
+ul.topnav li a:hover {background-color:  #f36;}
+.active {background-color:  #f36;text-decoration: none;}
 
-li a:hover:not(.activ) {
-    background-color: #f3c;
-}
-.activ {
-    background-color: #f36;
-}
-#menuHref a{
+ul.topnav .icon {display: none;}
+/*#menuHref a{
     padding: 10px 15px;
     margin-right: 5px;
     color: #000000;
 }
 #menuHref a:hover{
     background-color: #ccc4c4;
-}
+    text-decoration: none;
+}*/
 hr {
     display: block;
     margin: 1em 6em 0.5em 5em;
