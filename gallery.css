@@ -30,20 +30,9 @@ ul.topnav li a {
   transition: 0.3s;
   font-size: 17px;
 }
-
 ul.topnav li a:hover {background-color:  #f36;}
 .active {text-decoration: none;}
-
 ul.topnav .icon {display: none;}
-/*#menuHref a{
-    padding: 10px 15px;
-    margin-right: 5px;
-    color: #000000;
-}
-#menuHref a:hover{
-    background-color: #ccc4c4;
-    text-decoration: none;
-}*/
 hr {
     display: block;
     margin: 1em 6em 0.5em 5em;
@@ -57,14 +46,12 @@ body{
     font-family: Georgia;
     text-align: center;
 }
-
 header{
     font-size: 1.5em;
     font-family: Georgia;
     text-align: center;
-   margin-top: 0;
+    margin-top: 0;
     padding: 1%;
-    
 }
 h1{
      font-size: 2.5em;
@@ -75,7 +62,6 @@ nav{
     font-family: Georgia;
     margin-left: 15px;
 }
-
 footer{
      font-size: 1.5em;
     font-family: Georgia;
@@ -83,22 +69,11 @@ footer{
     margin-top: 0;
     padding: 1%;
     padding-bottom: 2%;
-}
-#page-wrap:after{
-    content: "";
-    display: block;
-}
-footer, #page-wrap:after{
     height: 1px;
-}
-#page-wrap{
-    min-height: 94%;
-    margin-bottom: -5px;
 }
 .left{
     float:left;
 }
-
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
       width:200%;

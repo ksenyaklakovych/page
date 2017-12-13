@@ -22,19 +22,9 @@ ul.topnav li a {
   transition: 0.3s;
   font-size: 17px;
 }
-
 ul.topnav li a:hover {background-color:  #f36;}
 .active {background-color:  #f36;text-decoration: none;}
-
 ul.topnav .icon {display: none;}
-ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-ul.topnav.responsive li a {
-   display: block;
-    text-align: left;
-}
 hr {
     display: block;
     margin: 1em 6em 0.5em 5em;
@@ -42,7 +32,6 @@ hr {
     border-width: 1px;
 }
 body{
-    
     height: 600px;
     min-width: 320px;
     font-size: 1.5em;
@@ -51,14 +40,12 @@ body{
     background-image: url(images/bac.png);
     background-repeat: no-repeat;
 }
-
 header, footer{
-    
     width:98%;
     float: left;
 }
 header{
-   margin-top: 0;
+    margin-top: 0;
     padding: 1%;
 }
 h3,p{
@@ -67,42 +54,21 @@ h3,p{
     font-weight: lighter;
     color:#808080;
 }
-
 nav{
     font-size: 1em;
     font-family: Georgia;
     margin-left: 15px;
 }
-#photos{
+#text{
     margin-top: 70px;
     margin-right:20px;
     margin-left:20px;
-  
 }
 footer{
     padding: 1%;
     padding-bottom: 1%;
-}
-#page-wrap:after{
-    content: "";
-    display: block;
-}
-footer, #page-wrap:after{
     height: 1px;
-}
-#page-wrap{
-    min-height: 94%;
-    margin-bottom: -5px;
 }
 .left{
     float:left;
 }
-/*
-a:visited {
-
-   color:   #f36;
-}
-a:hover {
-    color:   #f36;
-    text-decoration: underline;
-}*/

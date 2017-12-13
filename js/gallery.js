@@ -1,7 +1,8 @@
-  $(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 3000
-    })
-  });
+/*global $*/
+  $(document).ready(function() 
+  {
+    $('.carousel').carousel({interval: 3000})
+  }
+  );
   
   

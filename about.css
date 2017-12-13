@@ -26,33 +26,7 @@ ul.topnav li a {
 ul.topnav li a:hover {background-color:  #f36;}
 .active {background-color:  #f36;}
 
-ul.topnav li.icon {display: none;}
-
-@media screen and (max-width:680px) {
-  ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.icon {
-    float: right;
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width:680px) {
-  ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
-}
-
+ul.topnav .icon {display: none;}
 hr {
     display: block;
     margin: 1em 6em 0.5em 5em;
@@ -83,7 +57,6 @@ header{
     margin-top: 0;
     padding: 1%;
 }
-
 nav{
     font-size: 1em;
     font-family: Georgia;
@@ -93,17 +66,7 @@ footer{
     margin-top: 0;
     padding: 1%;
     padding-bottom: 2%;
-}
-#page-wrap:after{
-    content: "";
-    display: block;
-}
-footer, #page-wrap:after{
     height: 1px;
-}
-#page-wrap{
-    min-height: 94%;
-    margin-bottom: -5px;
 }
 .left{
     float:left;
